@@ -12,6 +12,12 @@
 		D2DEBA371DDD509B008A2431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DEBA351DDD509B008A2431 /* Main.storyboard */; };
 		D2DEBA391DDD509B008A2431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DEBA381DDD509B008A2431 /* Assets.xcassets */; };
 		D2DEBA3C1DDD509B008A2431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DEBA3A1DDD509B008A2431 /* LaunchScreen.storyboard */; };
+		D2DEBA481DDD51F3008A2431 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DEBA441DDD51F3008A2431 /* Fabric.framework */; };
+		D2DEBA491DDD51F3008A2431 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DEBA451DDD51F3008A2431 /* TwitterKit.framework */; };
+		D2DEBA4A1DDD51F3008A2431 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2DEBA461DDD51F3008A2431 /* TwitterKitResources.bundle */; };
+		D2DEBA4B1DDD51F3008A2431 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DEBA471DDD51F3008A2431 /* TwitterCore.framework */; };
+		D2DEBA4D1DDE8F53008A2431 /* UserTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DEBA4C1DDE8F53008A2431 /* UserTimelineViewController.swift */; };
+		D2DEBA4F1DDEB877008A2431 /* twiiterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DEBA4E1DDEB877008A2431 /* twiiterApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		D2DEBA381DDD509B008A2431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2DEBA3B1DDD509B008A2431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2DEBA3D1DDD509B008A2431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DEBA441DDD51F3008A2431 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		D2DEBA451DDD51F3008A2431 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		D2DEBA461DDD51F3008A2431 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		D2DEBA471DDD51F3008A2431 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		D2DEBA4C1DDE8F53008A2431 /* UserTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTimelineViewController.swift; sourceTree = "<group>"; };
+		D2DEBA4E1DDEB877008A2431 /* twiiterApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twiiterApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DEBA481DDD51F3008A2431 /* Fabric.framework in Frameworks */,
+				D2DEBA4B1DDD51F3008A2431 /* TwitterCore.framework in Frameworks */,
+				D2DEBA491DDD51F3008A2431 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,10 @@
 			children = (
 				D2DEBA301DDD509B008A2431 /* twiPicApp */,
 				D2DEBA2F1DDD509B008A2431 /* Products */,
+				D2DEBA471DDD51F3008A2431 /* TwitterCore.framework */,
+				D2DEBA461DDD51F3008A2431 /* TwitterKitResources.bundle */,
+				D2DEBA451DDD51F3008A2431 /* TwitterKit.framework */,
+				D2DEBA441DDD51F3008A2431 /* Fabric.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +76,8 @@
 				D2DEBA311DDD509B008A2431 /* AppDelegate.swift */,
 				D2DEBA331DDD509B008A2431 /* ViewController.swift */,
 				D2DEBA351DDD509B008A2431 /* Main.storyboard */,
+				D2DEBA4C1DDE8F53008A2431 /* UserTimelineViewController.swift */,
+				D2DEBA4E1DDEB877008A2431 /* twiiterApi.swift */,
 				D2DEBA381DDD509B008A2431 /* Assets.xcassets */,
 				D2DEBA3A1DDD509B008A2431 /* LaunchScreen.storyboard */,
 				D2DEBA3D1DDD509B008A2431 /* Info.plist */,
@@ -74,6 +95,7 @@
 				D2DEBA2A1DDD509B008A2431 /* Sources */,
 				D2DEBA2B1DDD509B008A2431 /* Frameworks */,
 				D2DEBA2C1DDD509B008A2431 /* Resources */,
+				D2DEBA431DDD5128008A2431 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -96,6 +118,7 @@
 				TargetAttributes = {
 					D2DEBA2D1DDD509B008A2431 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9JWW8S5LM7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DEBA4A1DDD51F3008A2431 /* TwitterKitResources.bundle in Resources */,
 				D2DEBA3C1DDD509B008A2431 /* LaunchScreen.storyboard in Resources */,
 				D2DEBA391DDD509B008A2431 /* Assets.xcassets in Resources */,
 				D2DEBA371DDD509B008A2431 /* Main.storyboard in Resources */,
@@ -131,11 +155,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D2DEBA431DDD5128008A2431 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 9617ee02b9dad2de32043b146e5d2b8ab2766ebf 999433d202388b5b2044e62790ddb83b1def045bee1867596a37426923cf569d";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2DEBA2A1DDD509B008A2431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DEBA4D1DDE8F53008A2431 /* UserTimelineViewController.swift in Sources */,
+				D2DEBA4F1DDEB877008A2431 /* twiiterApi.swift in Sources */,
 				D2DEBA341DDD509B008A2431 /* ViewController.swift in Sources */,
 				D2DEBA321DDD509B008A2431 /* AppDelegate.swift in Sources */,
 			);
@@ -258,7 +301,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9JWW8S5LM7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = twiPicApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takahashi.twiPicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +319,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9JWW8S5LM7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = twiPicApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takahashi.twiPicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +352,7 @@
 				D2DEBA421DDD509B008A2431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
